@@ -34,3 +34,5 @@ class Task:
 
     def set_max_delay(self, md):
         self.max_delay = Fraction(md)
+        self.sdl = self.begin + self.max_delay
+        self.fdl = self.begin + self.duration + max_delay(self) 
